@@ -1,0 +1,10 @@
+.layout {
+  background: #c7d5fd;
+  height: 100%;
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,23 @@
+.todosContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.inputRow {
+  display: flex;
+  align-items: center;
+
+  button {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.todoInput {
+  flex-grow: 1;
+}
+
+.todos {
+  background: #FFF;
+  border: 1px solid #919191;
+}

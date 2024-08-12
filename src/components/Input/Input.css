@@ -1,0 +1,7 @@
+.expand {
+  transition: transform 0.3s ease;
+}
+
+.expand-pressed {
+  transform: rotate(180deg);
+}
