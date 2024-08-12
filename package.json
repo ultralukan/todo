@@ -1,6 +1,7 @@
 {
   "name": "todos",
   "version": "0.1.0",
+  "homepage": "https://ultralukan.github.io/todo",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +50,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
+    "gh-pages": "^6.1.1",
     "jest": "^27.5.1"
   }
 }
